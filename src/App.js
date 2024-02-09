@@ -9,6 +9,12 @@ import { Routes, Route } from "react-router-dom";
 import MydonorInfo from './components/MydonorInfo';
 import PostDonor from './components/PostDonor';
 import PostHospital from './components/PostHospital';
+import Find from './components/Find';
+import Event from './components/Event'
+
+
+
+
 
 function App() {
 
@@ -23,6 +29,10 @@ function App() {
         <Route path="/post-donor" element={<PostDonor/>} />
         <Route path="/post-hospital" element={<PostHospital/>} />
       </Routes>
+      <Find/>
+      <Event/>
+    
+ 
       <Footer />
 
     </div>

@@ -191,11 +191,11 @@ export default function Homepage() {
 
 {/* fourth page */}
 
-      <section className="pt-20 lg:pt-[100px] pb-10 lg:pb-20 bg-white px-40">
+      <section className="pt-20 lg:pt-[100px] pb-10 lg:pb-20 bg-gray-200 px-40">
         <div className="container">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 xl:w-1/3 px-3 shadow-lg">
-              <div className="bg-white rounded-lg overflow-hidden mb-10">
+              <div className="bg-gray-200 rounded-lg overflow-hidden mb-10">
           
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
@@ -238,7 +238,7 @@ export default function Homepage() {
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/3 px-3 shadow-lg">
-              <div className="bg-white rounded-lg overflow-hidden mb-10">
+              <div className="bg-gray-200 rounded-lg overflow-hidden mb-10">
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                   <a
@@ -281,7 +281,7 @@ export default function Homepage() {
               </div>
             </div>
             <div className="w-full md:w-1/2 xl:w-1/3 px-3 shadow-lg">
-              <div className="bg-white rounded-lg overflow-hidden mb-10">
+              <div className="bg-gray-200 rounded-lg overflow-hidden mb-10">
                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
                   <h3>
                   <a

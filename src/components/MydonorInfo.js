@@ -13,8 +13,8 @@ export default function MyDonorInfo() {
   const handleSection2Click = () => {};
 
   return (
-    <div className="min-h-screen bg-gray-50 py-6 flex flex-col justify-center">
-      <div className="relative px-6 pt-10 pb-8 bg-white shadow-xl ring-1 ring-gray-900/5  sm:rounded-lg sm:px-10">
+    <div className="min-h-screen bg-gray-200 py-6 flex flex-col justify-center">
+      <div className="relative px-6 pt-10 pb-8 bg-gray-200 shadow-xl ring-1 ring-gray-900/5  sm:rounded-lg sm:px-10">
         <h1 className="text-3xl font-bold leading-tight text-gray-900">
           <button className="text-blue-600">Donor Info</button>
         </h1>
