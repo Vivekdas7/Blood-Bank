@@ -3,7 +3,7 @@ import React from 'react';
 function Whydonate() {
     return (
         <div className="bg-maroon text-white   py-8 px-8 h-full bg-[#ffff]  ">
-        <h1 className='text-3xl mb-8 font-bold text-red-800 '>We are commited to...</h1>
+        <h1 className='text-3xl mb-8 font-bold text-[#211C6A] '>We are commited to...</h1>
       <ul className='list-disc font-sans space-y-4 text-gray-600'>
         <li>Ensure timely availability of safe blood.</li>
         <li>Promote voluntary Blood Donation</li>
@@ -14,10 +14,10 @@ function Whydonate() {
 
       </ul>
 
-      <h1 className='text-3xl mt-8 font-bold text-red-800 mb-5'>WHO CAN/CAN'T DONATE BLOOD</h1>
+      <h1 className='text-3xl mt-8 font-bold text-[#211C6A] mb-5'>WHO CAN/CAN'T DONATE BLOOD</h1>
       <p className='text-gray-600'>Donating blood may reduce the risk of heart disease for men and stimulate the generation of red blood cells.</p>
-      <h1 className='text-3xl mt-8 font-bold text-gray-600 mb-5'>LET OTHERS BENEFIT FROM FROM YOUR GOOD HEALTH.</h1>
-      <h1 className='text-3xl mt-8 font-bold text-red-800 mb-5'>DO DONATE BLOOD IF.....</h1>
+      <h1 className='text-3xl mt-8 font-bold text-[#211C6A] mb-5'>LET OTHERS BENEFIT FROM FROM YOUR GOOD HEALTH.</h1>
+      <h1 className='text-3xl mt-8 font-bold text-[#211C6A] mb-5'>DO DONATE BLOOD IF.....</h1>
       <ul className='list-disc space-y-4 font-sans text-gray-600 '>
         <li>Your are between age group 18-60 years.</li>
         <li>Your weight is 45 kgs or more.</li>
@@ -26,7 +26,7 @@ function Whydonate() {
         <li>You should be healthy and have not suffered from malaria, typhoid or other transmissible disease in the recent past.</li>
       
       </ul>
-      <h1 className='text-3xl mt-8 font-bold text-red-800 mb-5'>DO NOT DONATE BLOOD IF.....</h1>
+      <h1 className='text-3xl mt-8 font-bold text-[#211C6A] mb-5'>DO NOT DONATE BLOOD IF.....</h1>
       <ul className='list-disc space-y-4 font-sans text-gray-600 '>
         <li>Cold/fever in the past 1 week.</li>
         <li>Under treatment with antibiotics or any other medications.</li>
@@ -38,7 +38,7 @@ function Whydonate() {
       
       </ul>
 
-      <h1 className='text-3xl mt-8 font-bold text-red-800 mb-5'>WOMEN</h1>
+      <h1 className='text-3xl mt-8 font-bold text-[#211C6A] mb-5'>WOMEN</h1>
       <ul className='list-disc space-y-4 font-sans text-gray-600 '>
         <li>Female should not donate blood during pregnancy.</li>
         <li>Had a miscarriage in the last 6 months or have been pregnant / lactating in the last one year.</li>
@@ -47,7 +47,7 @@ function Whydonate() {
         
       
       </ul>
-      <h1 className='text-3xl mt-12 font-bold text-red-800 mb-5'>
+      <h1 className='text-3xl mt-12 font-bold text-[#211C6A] mb-5'>
 BENEFITS OF BLOOD DONATION</h1>
 <p className='font-sans text-gray-600'>Donating Blood does not have any side effects on your health. In turn,there are several benefits of donating Blood.they are as follows:</p>
       <div className="flex justify-between mt-12">

@@ -112,8 +112,8 @@ const Donorcheck = () => {
   return (
     <div>
       {score === null ? (
-        <div className=' mx-3 justify-center h-96 font-semibold text-4xl font-sans'>
-          <h1 className='mb-8 text-[#378CE7] font-sans mt-4'> Take Our Quick Quiz</h1>
+        <div className=' mx-8 justify-center h-96 font-semibold text-4xl font-sans mt-6 space-y-9'>
+          <h1 className='mb-8 text-[#ffff] p-4  font-sans mt-4 bg-[#378CE7]'> Take Our Quick Quiz</h1>
           <h3 className=''>{questions[currentQuestion].question}</h3>
           <ul>
             {questions[currentQuestion].options.map((option, index) => (
@@ -126,12 +126,13 @@ const Donorcheck = () => {
                   value={option}
                   checked={answers[currentQuestion] === option}
                   onChange={handleAnswer}
+                 
                 />
                 <label htmlFor={`option-${index}`}>{option}</label>
               </li>
             ))}
           </ul>
-          <button className='bg-[#378CE7] font-sans rounded  m-3 text-xl px-3' onClick={handleNextQuestion}>Next</button>
+          <button className='bg-[#378CE7] font-sans rounded  m-3 text-xl px-3 ' onClick={handleNextQuestion}>Next</button>
         </div>
       ) : (
         <div>

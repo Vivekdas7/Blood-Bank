@@ -13,10 +13,10 @@ export default function Homepage() {
         <div className="bg-[#378CE7] w-10/12 md:w-11/12 max-w-[1080px] mx-auto flex flex-col lg:flex-row items-center justify-between -mt-[0.5px]">
           <div className="space-y-8 my-16 lg:my-0">
             <h1 className="font-extrabold text-[90px] leading-[1.1] text-white mx-[-10px] mt-[-5%]">
-                 eRaktKosh 
+                BloodBond
            
             </h1>
-            <div className="w-6 h-1 bg-[#d04742] px-[30px]"></div>
+            <div className="w-6 h-1 bg-[#211C6A] px-[30px]"></div>
             <p className="text-[18px] leading-7 text-white opacity-70 pb-6">
               Save lives through seamless blood management. Collect vital donations from generous donors. Distribute life-saving resources to healthcare providers. Never run dry on the gift of life.
             </p>
@@ -460,7 +460,7 @@ If you are subsequently not accepted for donation, then our councilor will infor
                      px-7
                      bg-[#211C6A]
                      rounded-sm
-                     text-white text-white
+                     text-white 
                      font-medium
                      hover:bg-[#a42524] transition-all duration-200">Organize a camp</button>
             </Link>
@@ -500,7 +500,7 @@ If you are subsequently not accepted for donation, then our councilor will infor
                      mt-6
                      bg-[#211C6A]
                      rounded-sm
-                     text-white text-white
+                     text-white 
                      font-medium
                      hover:bg-[#a42524] transition-all duration-200
                      "

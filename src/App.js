@@ -15,6 +15,8 @@ import Donorcheck from './components/Donorcheck'
 import ThreeButtonsSection from './components/Faqs';
 import Whydonate from './components/Whydonate';
 import Organize from './components/Organize';
+import MapWithInput from './components/MapWithInput';
+
 
 
 
@@ -38,6 +40,7 @@ function App() {
         <Route path="/faqs" element={<ThreeButtonsSection/>} />
         <Route path="/whydonate" element={<Whydonate/>} />
         <Route path="/donorcheck" element={<Donorcheck/>} />
+        <Route path="/mapwithinput" element={<MapWithInput/>} />
       </Routes>
       <Find/>
       <Event/>
