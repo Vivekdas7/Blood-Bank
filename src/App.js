@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './App.css';
+import './Toggle.css';
 import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import Register from './components/Register';
