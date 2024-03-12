@@ -80,14 +80,16 @@ export default function Find() {
           </div>
         </div>
 
-        {filteredDonorCenters.map((center, index) => (
-          <div key={index} className="bg-white border border-gray-300 rounded-lg mb-4 p-4 shadow-md">
-            <h2 className="text-lg font-semibold text-[#d04742]">{center.name}</h2>
-            <p className="text-sm mt-1">{center.address}</p>
-            <p className="text-sm">{center.phone}</p>
-            <p className="text-sm">{center.email}</p>
-          </div>
-        ))}
+        <div className="mb-8">
+          {filteredDonorCenters.map((center, index) => (
+            <div key={index} className="bg-white border border-gray-300 rounded-lg mb-4 p-4 shadow-md">
+              <h2 className="text-lg font-semibold text-[#d04742]">{center.name}</h2>
+              <p className="text-sm mt-1">{center.address}</p>
+              <p className="text-sm">{center.phone}</p>
+              <p className="text-sm">{center.email}</p>
+            </div>
+          ))}
+        </div>
 
         {filteredDonorCenters.length === 0 && (
           <div className="text-center mt-8">
@@ -100,6 +102,9 @@ export default function Find() {
             Load More
           </button>
         </div>
+      </div>
+      <div className="w-72 h-96 justify-center pb-300">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58978.52898432794!2d88.15162264863282!3d22.498252099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027c161529ec1d%3A0x6830fc6bb9bc4b59!2sMatrisadan%20Municipality%20Hospital!5e0!3m2!1sen!2sin!4v1708453974011!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   );
