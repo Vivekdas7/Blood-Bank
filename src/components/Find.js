@@ -46,7 +46,7 @@ export default function Find() {
     <div className="min-h-screen bg-gray-200 text-gray-800 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         <div className="mb-8 text-center">
-          <h1 className="text-3xl font-bold text-[#d04742]">Find A Donor Center Near You</h1>
+          <h1 className="text-3xl font-bold text-[#211C6A]">Find A Donor Center Near You</h1>
           <p className="text-lg mt-2">Search for donor centers in your area</p>
         </div>
 

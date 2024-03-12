@@ -72,12 +72,12 @@ class Register extends Component {
             <div class="grid gap-4 gap-y-2 text-sm grid-cols-1 md:grid-cols-5">
               <div class="md:col-span-5">
                 <label for="full_name">Full Name</label>
-                <input type="text" name="full_name" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" />
+                <input type="text" name="full_name" id="full_name" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value={this.state.full_name} />
               </div>
 
               <div class="md:col-span-5">
                 <label for="email">Email Address</label>
-                <input type="text" name="email" id="email" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value="" placeholder="email@domain.com" />
+                <input type="text" name="email" id="email" class="h-10 border mt-1 rounded px-4 w-full bg-gray-50" value={this.state.email} placeholder="email@domain.com" />
               </div>
 
               <div class="md:col-span-2">

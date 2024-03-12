@@ -3,7 +3,7 @@
 @import 'tailwindcss/utilities';
 
 *::selection{
-  color: #02042b;
+  color: #ca3636;
   background-color: #d04742;
 }
 body {

@@ -11,6 +11,12 @@ import PostDonor from './components/PostDonor';
 import PostHospital from './components/PostHospital';
 import Find from './components/Find';
 import Event from './components/Event'
+import Donorcheck from './components/Donorcheck'
+import ThreeButtonsSection from './components/Faqs';
+import Whydonate from './components/Whydonate';
+import Organize from './components/Organize';
+
+
 
 
 
@@ -28,6 +34,10 @@ function App() {
         <Route path="/donor-info" element={<MydonorInfo />} />
         <Route path="/post-donor" element={<PostDonor/>} />
         <Route path="/post-hospital" element={<PostHospital/>} />
+        <Route path="/organize" element={<Organize/>} />
+        <Route path="/faqs" element={<ThreeButtonsSection/>} />
+        <Route path="/whydonate" element={<Whydonate/>} />
+        <Route path="/donorcheck" element={<Donorcheck/>} />
       </Routes>
       <Find/>
       <Event/>
